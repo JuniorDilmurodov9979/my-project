@@ -1,9 +1,9 @@
 import "../../main.css";
 import "./list.css";
-import { Card } from "../card/card";
+import { Card } from "../Card/Card";
 import { opt } from "../../constants/constant";
 import React, { useState, useEffect } from "react";
-import { Search } from "../search/search";
+import { Search } from "../Search/Search";
 import { data } from "autoprefixer";
 
 export function List() {
