@@ -1,0 +1,46 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-color: var(--main-textdark-color);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.site-header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.site-header__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--main-text2-color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.site-header__btn::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  margin-bottom: 2px;
+  content: " ";
+  background-image: url(../../assets/darkmodenotactive.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
