@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Header } from "./componets/header/Header";
+import { Header } from "./componets/Header/Header";
 // import { Main } from "./componets/main/main";
 import { Search } from "./componets/search/search";
 import { List } from "./componets/list/list";
